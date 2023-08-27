@@ -46,7 +46,7 @@ class TV:
         if self.estado==True and self.volumen>=0 and self.volumen<7:
            self.canal=self.volumen+1
     def volumenDown(self):
-        if self.estado==True and self.volumen>=0 and self.volumen<7:
+        if self.estado==True and self.volumen>0 and self.volumen<=7:
            self.canal=self.volumen-1
     @classmethod 
     def setNumTV(cls,numTV):
