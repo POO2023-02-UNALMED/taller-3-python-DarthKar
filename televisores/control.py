@@ -5,6 +5,8 @@ class Control:
     def enlazar(self,tv):
         tv.setControl(self)
         self.tv = tv
+    def setTV(self,tv):
+        self.tv = tv
     def getTV(self):
         return self.tv
     def turnOn(self):

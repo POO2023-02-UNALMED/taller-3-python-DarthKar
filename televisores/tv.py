@@ -50,7 +50,7 @@ class TV:
            self.canal=self.volumen-1
     @classmethod 
     def setNumTV(cls,numTV):
-             cls.numTV = numTV
+        cls.numTV = numTV
     def getNumTV(cls):
         return cls.numTV
 
